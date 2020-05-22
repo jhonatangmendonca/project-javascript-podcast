@@ -1,0 +1,56 @@
+h1,
+h3,
+p {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  font-weight: 800 !important;
+  font-family: 'Source Code Pro', monospace !important;
+}
+
+img {
+  max-width: 200px;
+}
+
+.document {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.inputVal {
+  border-radius: 5px;
+  text-align: center;
+  width: 65px;
+  border: 0;
+  background-color: transparent;
+  font-weight: 800 !important;
+  font-family: 'Source Code Pro', monospace !important;
+}
+
+.input {
+  margin-top: 50px;
+  display: flex;
+  align-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputRange {
+  width: 50vw !important;
+}
+
+.stations {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.item-hide {
+  display: none;
+}
+
+.podcastItem {
+  width: 300px;
+  margin: 0 auto;
+  border: 5px solid #b1b1b1;
+  border-radius: 15px;
+}

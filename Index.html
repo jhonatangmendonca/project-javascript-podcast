@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PodCast</title>
+    <link href="CSS/Style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="document">
+      <h1 class="text-center">PodCast</h1>
+      <div class="input">
+        <div>
+          <input type="text" class="inputVal" value="85Mhz" disabled />
+        </div>
+        <div>
+          <input
+            class="custom-range inputRange"
+            type="range"
+            value="80"
+            min="80"
+            max="300"
+            id="inputRange"
+            step="10"
+          />
+        </div>
+        <div>
+          <input type="text" class="inputVal" value="289Mhz" disabled />
+        </div>
+      </div>
+      <div>
+        <h3 class="text-center mt-5">Our Seasons:</h3>
+      </div>
+      <div class="stations" id="stations">
+        <div id="podcast1" class="podcastItem item-hide">
+          <h3>Apple Podcast</h3>
+          <div>
+            <img src="Img/apple.png" alt="Apple Podcast" />
+          </div>
+          <p>90.5Mhz</p>
+        </div>
+        <div id="podcast2" class="podcastItem item-hide">
+          <h3>Lion Podcast</h3>
+          <div>
+            <img src="Img/lion.jpg" alt="Lion Podcast" />
+          </div>
+          <p>100.0Mhz</p>
+        </div>
+        <div id="podcast3" class="podcastItem item-hide">
+          <h3>Café Podcast</h3>
+          <div>
+            <img src="Img/cafe.png" alt="Café Podcast" />
+          </div>
+          <p>127.9Mhz</p>
+        </div>
+        <div id="podcast4" class="podcastItem item-hide">
+          <h3>Deezer Podcast</h3>
+          <div>
+            <img src="Img/deezer.jpg" alt="Deezer Podcast" />
+          </div>
+          <p>232.6Mhz</p>
+        </div>
+        <div id="podcast5" class="podcastItem item-hide">
+          <h3>Mises Podcast</h3>
+          <div>
+            <img src="Img/mises.jpg" alt="Mises Podcast" />
+          </div>
+          <p>250.2Mhz</p>
+        </div>
+        <div id="podcast6" class="podcastItem item-hide">
+          <h3>Wirer Podcast</h3>
+          <div>
+            <img src="Img/podcast.png" alt="Wirer Podcast" />
+          </div>
+          <p>275.6Mhz</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="JS/Script.js"></script>
+</html>
